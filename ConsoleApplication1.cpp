@@ -28,3 +28,6 @@ int main() {
     double Qt = (1 - af) * Qp;
     double nt = Qt / qt;
 
+    int np_rounded = static_cast<int>(ceil(np));
+    int nf_rounded = static_cast<int>(ceil(nf));
+    int nt_rounded = static_cast<int>(ceil(nt));
