@@ -31,3 +31,12 @@ int main() {
     int np_rounded = static_cast<int>(ceil(np));
     int nf_rounded = static_cast<int>(ceil(nf));
     int nt_rounded = static_cast<int>(ceil(nt));
+
+
+    cout << "\nРезультаты:" << endl;
+    cout << "np (количество пельменей): " << np_rounded << endl;
+    cout << "nf (количество фарша): " << nf_rounded << endl;
+    cout << "nt (количество теста): " << nt_rounded << endl;
+
+    return 0;
+}
